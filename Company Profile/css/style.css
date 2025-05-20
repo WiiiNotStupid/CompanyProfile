@@ -1,0 +1,471 @@
+:root{
+    --p-color :#00985B;
+}
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: hsl(157, 100%, 97%); 
+}
+.navbar{
+    z-index: 3;
+}
+
+.nav-color{
+    background-color: rgba(0, 160, 75, 0.5);
+    transition: all ease-in-out .3s;
+}
+
+.bg-transparent {
+    transition: all ease-in-out .3s;
+}
+
+* {
+    z-index: 2;
+}
+
+.accsent-img{
+    z-index: 1;
+}
+
+.img-hero{
+    z-index: 2;
+}
+.navbar-brand{
+    font-weight: 700;
+    font-size: 20px;
+}
+.nav-link{
+    font-size: 16px;
+}
+.nav-link.active{
+    font-weight: 700;
+}
+
+.button-secondary{
+    width: 133px;
+    height: 40px;
+    background-color: white;
+    color: #00985B;
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+}
+.button-primary{
+    width: 133px;
+    height: 40px;
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#hero {
+    background: linear-gradient(160deg,#00985B, #000);
+    height: 100vh;
+    width: 100%;
+}
+
+.img-hero{
+    height: 80%;    
+}
+
+.hero-tagline h1{
+    font-size: 52px;
+    color: white;
+    font-weight: 700;
+    line-height: 72px;
+}
+
+.hero-tagline p{
+
+    font-size: 16px;
+    color: white;
+    margin-bottom: 60px;
+    margin-top: 20px;
+    line-height: 30px;
+    width: 85%;
+}
+
+.button-lg-primary{
+    width: 237px;
+    height: 70px;
+    background-color: white;
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--p-color);
+}
+
+
+#layanan {
+    padding: 100px 0;
+}
+h2 {
+    font-size:  48px;
+    font-weight: 500;
+    color: var(--p-color);
+}
+
+
+.sub-title {
+    font-size: 18px;
+    color:#000;
+}
+.card-layanan {
+    width: 100%;
+    height: 313px;
+    border-radius: 5px;
+    background-color: white;
+    padding: 40px;
+    box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.05);
+    transition: all .2s ease-in;
+}
+
+.circle-icon{
+    width: 70px;
+    height: 70px;
+    background-color: #00985B;
+    border-radius: 50%;
+    transition: all .1s ease-in;
+}
+.circle-icon img {
+    width: 70%;
+}
+
+.card-layanan h3 {
+    color: black;
+    font-size: 24px;
+    transition: all .3s ease-in;
+}
+.card-layanan p {
+    color: black;
+    font-size: 14px;
+    transition: all .3s ease-in;
+}
+
+
+.card-layanan:hover {
+    width: 100%;
+    height: 313px;
+    border-radius: 5px;
+    background: linear-gradient(160deg,#00985B, #000000);
+    padding: 40px;
+    box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.05);
+    transition: all .2s ease-out;
+}
+.card-layanan:hover .circle-icon{
+    width: 70px;
+    height: 70px;
+    background-color: white;
+    border-radius: 50%;
+    transition: all .1s ease-out;
+}
+
+.card-layanan:hover h3 {
+    color: white;
+    font-size: 24px;
+    transition: all .2s ease-out;
+}
+.card-layanan:hover p {
+    color: white;
+    font-size: 14px;
+    transition: all .2s ease-out;
+}
+
+
+
+#search {
+    background-image: url(../Assets/searchBG.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#search h2 {
+    font-size: 45px;
+    color: white ;
+    font-weight: 600;
+    line-height: 72px;
+}
+
+#search p {
+    font-size: 28px;
+    color: white ;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+.input-cari {
+    height: 90px;
+}
+.input-cari:focus {
+    border: none;
+}
+.form-control:focus {
+    outline: none !important;
+    box-shadow: 0 0 0 0.25rem rgba(0, 152, 91, 0.5);
+    border-color: #00985B;
+    border-width: 2px;
+  }
+  
+.input-cari .btn-secondary {
+    width:180px;
+    height: 90px;
+    background-color: rgba(255,255,255,0.8);
+    color: var(--p-color);
+    font-weight: 500;
+    border: none;
+    border-radius: 0 0 0 10px;
+}
+.input-cari .btn-primary {
+    height: 90px;
+    background-color: var(--p-color);
+    color:white;
+    border: none;
+    font-size:36px;
+    font-weight:500;
+    border-radius: 0 0 0 0;
+}
+.nav-tabs{
+    border: none;
+}
+.nav-tabs .nav-link {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 0 0 0 0;
+    color: #000;
+    border: none;
+}
+.nav-tabs .nav-link.active {
+    background-color: rgba(255,255,255,0.8);
+    color: var(--p-color);
+    border-radius: 0 9px 0 0;
+}
+
+
+
+.card {
+    height: 480px;
+    border: none;
+    width: 95%;
+}
+.card-body h4{
+    color: #000;
+    font-weight: 600px;
+    font-size: 24px;
+    line-height: .8rem;
+}
+.card-body p {
+    color: #222222;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.card:hover {
+    background: linear-gradient(170deg, var(--p-color), #017949,#00301d);
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.25);
+    transition: all ease-in-out .3s;
+}
+.card:hover .card-body h4 {
+    color: white;
+    transition: all ease-in-out .3s;
+}
+.card:hover .card-body p {
+    color :white;
+    transition: all ease-in-out .3s;
+}
+.card-fasilitas {
+    background-color: white;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 10px;
+}
+.card-fasilitas span {
+    font-weight: 500;
+    margin-top: 18px;
+    color: #000;
+}
+.card-fasilitas p {
+    font-size: 14px;
+}
+
+
+
+.button-fitur {
+    width: 238px;
+    height: 63px;
+    background-color: var(--p-color);
+    border: none;
+    font-size: 24px;
+    font-weight: 500;
+    color: white;
+}
+#Fitur h2{
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.card-fitur h5 {
+    color: white;
+    font-size: 36px;
+    font-weight: 600;
+}
+.card-fitur span {
+    color: white;
+    font-size: 14px;
+}
+.card-fitur h6 {
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+}
+.card-fitur button {
+    background-color: var(--p-color);
+    color: white;
+    border: none;
+    width: 150px;
+    height: 45px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.card-fitur .overlay {
+    background-color: rgba(0, 0, 0, 0.0 );
+    opacity: 0;
+    transition: all ease-in-out .3s;
+}
+
+.card-fitur .overlay:hover {
+    background-color: rgba(0, 0, 0, 0.6 );
+    opacity: 1;
+}
+.btn-kiri{
+    border-radius: 50%;
+    border: none;
+    width: 61px;
+    height: 61px;
+    background-color: var(--p-color);
+    padding: 0;
+}
+
+.btn-kanan{
+    border-radius: 50%;
+    border: none;
+    width: 61px;
+    height: 61px;
+    background-color: var(--p-color);
+    padding: 0;
+}
+
+
+#contact {
+    background-image: url(../Assets/contact.png);
+    margin-top: 160px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#contact .overlay {
+    background: rgba(0, 0, 0, 0.5 );
+}
+#contact .container {
+    padding: 148px 0 148px 0;
+}
+#contact h3 {
+    color:white;
+    line-height: 60px;
+    font-size: 40px;
+    font-weight: 600;
+    width: 500px;
+    display: inline-block;
+}
+#contact h6{
+    line-height: 27px;
+    font-size: 18px;
+    color: white;
+    font-weight: 600;
+    margin: 19px 0 14px 0;
+}
+.kontak h6 {
+    line-height: 27px;
+    font-size: 18px;
+    color: white;
+    font-weight: 600;
+    margin: 19px 0 14px 0;
+}
+.kontak a {
+    line-height: 27px;
+    font-size: 18px;
+    color: white;
+    font-weight: 400;
+    text-decoration: none;
+    margin-left: 18px;
+    width: 332px;
+    display: inline-block;
+}
+.linkrumahimpian {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: white;
+    text-decoration: none;
+}
+
+.card-contact {
+    width: 100%;
+    height: 445px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 52px 48px;
+}
+
+.card-contact h2 {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    color: #00985B;
+    text-align: center;
+    margin-bottom: 21px;
+}
+
+#footer .form-control {
+    background: #c4c4c4;
+    height: 75px !important;
+}
+#footer .form-floating label {
+    font-size: 16px;
+    line-height: 18px;
+}
+
+.btn-kontak {
+    width: 100%;
+    height: 75px;
+    background-color:#00985B;
+    border: none;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: white;
+}
+
+footer {
+    width: 100%;
+    height: 270px;
+    background-color: #000;
+}
+.copyright {
+    bottom: 3%;
+    color: white;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+footer a{
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    color: white;
+    text-decoration: none;
+}
